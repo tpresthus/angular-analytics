@@ -23,3 +23,19 @@ app.run(function(analytics) {
 ```
 
 Replace *UA-XXXXXX* with your Google Analytics tracking code.
+
+Analytics will automatically track location changes from ngRoute as pageviews.
+
+### Tracking events
+
+You can track custom events by injecting **analytics** in your module:
+
+```javascript
+app.controller("myController", function(analytics) {
+  this.doSomething = function() {
+    analytics.trackEvent("button", "click" "nav buttons", 4);
+  };
+});
+```
+
+See https://developers.google.com/analytics/devguides/collection/analyticsjs/events for more information on tracking events in Google Analytics.
