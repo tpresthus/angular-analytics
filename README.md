@@ -2,7 +2,7 @@
 
 Dead-simple Google Analytics support for Angular.
 
-Based on analytics.js by (https://github.com/MatsKarlsson)[Mats Karlsson].
+Based on analytics.js by [Mats Karlsson](https://github.com/MatsKarlsson).
 
 ## Usage
 
